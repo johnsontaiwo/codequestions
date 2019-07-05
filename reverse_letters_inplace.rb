@@ -5,7 +5,9 @@ def reverse!(string)
  
   until left_index > right_index
     string[left_index], string[right_index] = string[right_index], string[left_index]
-    left_index += 1
+    left_index  += 1
     right_index -= 1
   end
+  return string
 end
+
