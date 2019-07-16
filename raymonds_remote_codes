@@ -1,0 +1,12 @@
+raymonds_remote_codes
+
+1`git remote add upstream git@github.com:rayning0/ctci.git`
+
+2. `git fetch upstream`
+3. `git pull upstream master`
+4. `git push -f`
+
+
+Line 1 adds a remote repo (https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) called "upstream" to your fork, pointing to my GitHub repo.
+
+Lines 2-4 update what "upstream" means, pulls the latest code from my /ctci repo, then force pushes it up to YOUR repo.
