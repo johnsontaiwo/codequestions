@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative './inflight_movies'
+require_relative '../inflight_movies'
 
 
 
