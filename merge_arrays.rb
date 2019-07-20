@@ -20,7 +20,7 @@
 
 
 def merge_arrays(array1, array2)
-
+ 
   merged_array = array1 + array2
   if array1.empty? 
     merged_array = array2
