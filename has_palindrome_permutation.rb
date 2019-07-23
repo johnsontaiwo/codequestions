@@ -17,6 +17,28 @@
 
 # Solution
 
-def has_palindrome_permutation?(string)
+require 'set'
 
-end
+def has_palindrome_permutation?(the_string)
+
+  string_set = Set.new
+  
+  the_string.each_char do |c|
+    
+    if string_set.include?(the_string[c])
+      string_set.delete(the_string[c] )
+      else
+        string_set << the_string[c] 
+      end
+      false
+    end
+    return true if string_set.length <= 1
+  end
+
+
+
+  
+      
+     
+  
+  
